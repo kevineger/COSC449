@@ -42,4 +42,3 @@ TweetStream::Client.new.track('trump', 'Trump', 'Donald Trump') do |status|
 	st = con.prepare(sql)
 	st.execute(user_id, status.text)
 end
-
